@@ -92,7 +92,7 @@ Each element in a node's `children` list is itself a node:
 
 ```py
 root_node
-# => { value: 20, children: [ { value: 45, children: [] }, ... ] }
+# => { value: 20, children: [ { value: 50, children: [] }, ... ] }
 root_node.get('children')[0]
 # => { value: 50, children: [] }
 ```
